@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  gateway.api:
+    image: ${DOCKER_REGISTRY-}gatewayapi
+    build:
+      context: .
+      dockerfile: gateway.api\Dockerfile
+    container_name: gateway.api.endpoint
+    depends_on:
+      - authorize.service
+      - helpdesksupport.service
+
+  authorize.service:
+    image: ${DOCKER_REGISTRY-}authorizeservice
+    build:
+      context: .
+      dockerfile: AuthorizeService\Dockerfile
+    container_name: authorize.micro.service
+
+  helpdesksupport.service:
+    image: ${DOCKER_REGISTRY-}helpdesksupportservice
+    build:
+      context: .
+      dockerfile: HelpDeskSupportService\Dockerfile
+    container_name: helpdesksupport.micro.service

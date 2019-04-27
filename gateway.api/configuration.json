@@ -1,0 +1,35 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/authorize-microservice/{url}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/authorize-microservice/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Options" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "authorize.service",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/helpdesk-microservice/{url}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/helpdesk-microservice/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put", "Options" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "helpdesksupport.service",
+          "Port": 80
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    }
+  ],
+
+  "GlobalConfiguration": {
+  }
+}
