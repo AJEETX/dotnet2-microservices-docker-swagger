@@ -1,8 +1,8 @@
-# aspnet.core microservices ![GitHub release](https://img.shields.io/github/release/ajeetx/ms-sam-ple.svg?style=for-the-badge) ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge)
+# aspnet.core microservices ![GitHub release](https://img.shields.io/github/release/ajeetx/dotnet2-microservices-docker-swagger.svg?style=for-the-badge) ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge)
 
 ### dotnet2-microservices-docker-swagger
 
-[![.Net Framework](https://img.shields.io/badge/DotNet-2.1_Framework-blue.svg?style=plastic)](https://www.microsoft.com/net/download/dotnet-core/2.1)  | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/ms-sam-ple.svg) | ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/ms-sam-ple.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/ms-sam-ple.svg) | [![.Net Framework](https://img.shields.io/badge/docker-install-blue.svg)](https://www.docker.com/get-started)
+[![.Net Framework](https://img.shields.io/badge/DotNet-2.1_Framework-blue.svg?style=plastic)](https://www.microsoft.com/net/download/dotnet-core/2.1)  | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/dotnet2-microservices-docker-swagger.svg) | ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/dotnet2-microservices-docker-swagger.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/dotnet2-microservices-docker-swagger.svg) | [![.Net Framework](https://img.shields.io/badge/docker-install-blue.svg)](https://www.docker.com/get-started)
 | --- | ---          | ---        | ---      | --- |
 
 ---------------------------------------
@@ -60,7 +60,7 @@ The overall objective of the applications :
  
 ### Support or Contact
 
-Having any trouble? Please read out this [documentation](https://github.com/AJEETX/ms-sam-ple/blob/master/README.md) or [contact](mailto:ajeetx@email.com) and to sort it out.
+Having any trouble? Please read out this [documentation](https://github.com/AJEETX/dotnet2-microservices-docker-swagger/blob/master/README.md) or [contact](mailto:ajeetx@email.com) and to sort it out.
 
 ```
 keep coding ;)
